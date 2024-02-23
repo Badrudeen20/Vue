@@ -1,11 +1,6 @@
 <script setup>
 import { RouterLink } from 'vue-router'
-defineProps({
-  pages: {
-    type: Array ,
-    required: true
-  }
-})
+
 </script>
 
 <template>

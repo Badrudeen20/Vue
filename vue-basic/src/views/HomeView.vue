@@ -1,9 +1,12 @@
 <script setup>
-/* import TheWelcome from '../components/TheWelcome.vue' */
+import InputForm from '@/components/task/InputForm.vue';
+import TaskList from '@/components/task/TaskList.vue';
+
 </script>
 
 <template>
-  <div>
-    Home
+  <div class="container task">
+    <InputForm />
+    <TaskList />
   </div>
 </template>
